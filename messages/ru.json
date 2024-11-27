@@ -2,5 +2,16 @@
   "HomePage": {
     "title": "привет мир!",
     "about": "Перейдите на страницу о нас"
+  },
+  "AboutPage": {
+    "title": "О нас",
+    "about": "Это страница «О нас»."
+  },
+  "Navbar": {
+    "home": "Главная",
+    "about": "О нас"
+  },
+  "LocaleSwitcher": {
+    "locale": "{locale, select, ua {украинский} ru {русский} en {английский} other {неизвестно}}"
   }
 }

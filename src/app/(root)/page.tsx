@@ -1,7 +1,5 @@
-export default async function Home() {
-  return (
-    <div>
-      <h1>Hello Default Home</h1>
-    </div>
-  );
+import { redirect } from "next/navigation";
+
+export default function page() {
+  redirect("/ua");
 }

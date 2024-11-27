@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import { notFound } from "next/navigation";
 
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
-import { notFound } from "next/navigation";
 import { type Locale, routing } from "@/i18n/routing";
+
+import Header from "@/components/header";
 
 import "../(root)/globals.css";
 
@@ -41,7 +43,8 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang="en" suppressHydrationWarning>
       <body className={`${poppins.className} antialiased`}>
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <Header />
+          <main>{children}</main>
         </NextIntlClientProvider>
       </body>
     </html>

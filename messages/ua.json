@@ -1,0 +1,17 @@
+{
+  "HomePage": {
+    "title": "привіт світ!",
+    "about": "Перейдіть на сторінку про нас"
+  },
+  "AboutPage": {
+    "title": "Про нас",
+    "about": "Це сторінка «Про нас»."
+  },
+  "Navbar": {
+    "home": "Головна",
+    "about": "Про нас"
+  },
+  "LocaleSwitcher": {
+    "locale": "{locale, select, ua {українська} ru {російська} en {англійська} other {невідомо}}"
+  }
+}
